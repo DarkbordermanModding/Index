@@ -1,0 +1,18 @@
+# Note:
+# Due to Steam guard this step can not be automated
+# First run use `docker-compose run --name steamcmd steamcmd` or won't work
+# After first run can use `docker start steamcmd && docker exec -it steamcmd bash` to enter the environment
+version: '3'
+
+services:
+  steamcmd:
+    image: cm2network/steamcmd:latest
+    container_name: steamcmd
+    hostname: steamcmd
+    stdin_open: true
+    tty: true
+    env_file:
+      - .env
+    command: /home/steam/steamcmd/steamcmd.sh +login ${STEAM_ACCOUNT} ${STEAM_PASSWORD}
+    volumes:
+      - ./:/tmp/index/
