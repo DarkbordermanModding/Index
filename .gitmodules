@@ -7,6 +7,6 @@
 [submodule "294100"]
 	path = 294100
 	url = https://github.com/DarkbordermanModding/RimWorld.git
-[submodule "Star-Sector"]
-	path = Star-Sector
-	url = https://github.com/DarkbordermanModding/Star-Sector.git
+[submodule "Starsector"]
+	path = Starsector
+	url = https://github.com/DarkbordermanModding/Starsector.git
