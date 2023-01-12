@@ -1,9 +1,3 @@
-[submodule "211820"]
-	path = 211820
-	url = https://github.com/DarkbordermanModding/Starbound.git
-[submodule "281990"]
-	path = 281990
-	url = https://github.com/DarkbordermanModding/Stellaris
 [submodule "294100"]
 	path = 294100
 	url = git@github.com:DarkbordermanModding/RimWorld.git
